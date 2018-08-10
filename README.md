@@ -90,15 +90,17 @@ Click on RNN_project.ipynb. Follow the instructions in the notebook.
 ```
 	
 6. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
-	- __Linux__ or __Mac__: 
-		```
+
+- __Linux__ or __Mac__: 
+```
     (pmaienv)$ KERAS_BACKEND=tensorflow python -c "from keras import backend"
-		```
-	- __Windows__: 
-		```
+```
+
+- __Windows__: 
+```
     (pmaienv)$ set KERAS_BACKEND=tensorflow
-		python -c "from keras import backend"
-		```
+    	python -c "from keras import backend"
+```
 
 7. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `pmaienv-project` environment. 
 ```
